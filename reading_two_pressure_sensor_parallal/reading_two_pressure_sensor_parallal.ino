@@ -28,6 +28,7 @@ MUX PIN 6 , 7 , 8 , 9 is connected to GND.
 #define P2_ACTIVE digitalWrite(SELECT_PIN,LOW);  //delay(10);
 
 SFE_BMP180 bmp1,bmp2;
+boolean readSensors(Data *data1, Data *data2);
 
 Data newData(char id)
 {
