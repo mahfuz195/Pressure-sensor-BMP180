@@ -9,7 +9,7 @@ using Arduino Mega
 
 SCL		-> MUX PIN 3
 SDA		-> MUX PIN 13
-PIN 19	-> MUX PIN 10 with a pull up 10K resistor.
+PIN 19	-> MUX PIN 10 with a pull down 10K resistor.
 
 PIN 19 is used for selecting one of the pressure sensor.
 
